@@ -75,4 +75,5 @@
     echo '<tr><th>Grand Total</th><td style="width:20px"></td><td style="text-align:right"> $' . number_format($total * (1 + $taxRate), 2) . '</td></tr></table></center><br/><br/>';
     echo '<h2>Thank you for your business!</h2>';
     echo '</body>';
+    echo '<a id=\'thanks\' href=\'menu.html\' />Back to Menu page.</a>';
 ?>
